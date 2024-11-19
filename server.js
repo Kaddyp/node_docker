@@ -5,7 +5,7 @@ const app = express();
 app.get('/', (req, res) => {
     res.json({
         status: 200,
-        message: "Node Js Docker deployment"
+        message: "Node Js Docker deployment in Dockerhub and Ec2"
     })
 })
 
